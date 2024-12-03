@@ -18,10 +18,10 @@ cp-zookeeper:
   resources:
     limits:
       cpu: 100m
-      memory: 128Mi
+      memory: 228Mi  # Increased by 100Mi
     requests:
       cpu: 100m
-      memory: 128Mi
+      memory: 228Mi  # Increased by 100Mi
 
 ## ------------------------------------------------------
 ## Kafka
@@ -41,10 +41,10 @@ cp-kafka:
   resources:
     limits:
       cpu: 100m
-      memory: 128Mi
+      memory: 228Mi  # Increased by 100Mi
     requests:
       cpu: 100m
-      memory: 128Mi
+      memory: 228Mi  # Increased by 100Mi
   securityContext:
     runAsUser: 0
 
@@ -61,10 +61,10 @@ cp-schema-registry:
   resources:
     limits:
       cpu: 100m
-      memory: 128Mi
+      memory: 228Mi  # Increased by 100Mi
     requests:
       cpu: 100m
-      memory: 128Mi
+      memory: 228Mi  # Increased by 100Mi
 
 ## ------------------------------------------------------
 ## REST Proxy
@@ -79,10 +79,10 @@ cp-kafka-rest:
   resources:
     limits:
       cpu: 100m
-      memory: 128Mi
+      memory: 228Mi  # Increased by 100Mi
     requests:
       cpu: 100m
-      memory: 128Mi
+      memory: 228Mi  # Increased by 100Mi
 
 ## ------------------------------------------------------
 ## Kafka Connect
@@ -97,10 +97,10 @@ cp-kafka-connect:
   resources:
     limits:
       cpu: 100m
-      memory: 128Mi
+      memory: 228Mi  # Increased by 100Mi
     requests:
       cpu: 100m
-      memory: 128Mi
+      memory: 228Mi  # Increased by 100Mi
 
 ## ------------------------------------------------------
 ## KSQL Server
@@ -117,10 +117,10 @@ cp-ksql-server:
   resources:
     limits:
       cpu: 200m
-      memory: 256Mi
+      memory: 356Mi  # Increased by 100Mi
     requests:
       cpu: 100m
-      memory: 128Mi
+      memory: 228Mi  # Increased by 100Mi
 
 ## ------------------------------------------------------
 ## Control Center
@@ -135,7 +135,7 @@ cp-control-center:
   resources:
     limits:
       cpu: 100m
-      memory: 128Mi
+      memory: 228Mi  # Increased by 100Mi
     requests:
       cpu: 100m
-      memory: 128Mi
+      memory: 228Mi  # Increased by 100Mi
