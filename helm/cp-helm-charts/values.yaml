@@ -3,7 +3,7 @@
 ## ------------------------------------------------------
 cp-zookeeper:
   enabled: true
-  servers: 3
+  servers: 1  # Уменьшаем количество серверов до 1
   image: confluentinc/cp-zookeeper
   imageTag: 6.1.0
   imagePullSecrets:
@@ -28,7 +28,7 @@ cp-zookeeper:
 ## ------------------------------------------------------
 cp-kafka:
   enabled: true
-  brokers: 3
+  brokers: 1  # Уменьшаем количество брокеров до 1
   image: confluentinc/cp-enterprise-kafka
   imageTag: 6.1.0
   imagePullSecrets:
