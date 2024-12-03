@@ -7,6 +7,8 @@
 
 ### kubectl apply -f kafka-client.yml
 ### kubectl apply -f application-deployment-local.yml 
+### kubectl apply -f postgres-deployment.yml
+
 
 # Load images
 ### minikube image load
