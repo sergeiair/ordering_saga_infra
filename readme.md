@@ -6,3 +6,4 @@
 # kubectl delete pods --all
 
 # kubectl apply -f kafka-client.yml
+# kubectl apply -f application-deployment-local.yml 
