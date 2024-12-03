@@ -79,10 +79,10 @@ cp-kafka-rest:
   resources:
     limits:
       cpu: 100m
-      memory: 228Mi  # Increased by 100Mi
+      memory: 400Mi  # Increased by 100Mi
     requests:
       cpu: 100m
-      memory: 228Mi  # Increased by 100Mi
+      memory: 400Mi  # Increased by 100Mi
 
 ## ------------------------------------------------------
 ## Kafka Connect

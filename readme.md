@@ -4,3 +4,5 @@
 # helm upgrade local-confluent-kafka confluentinc/cp-helm-charts -f values.yaml
 
 # kubectl delete pods --all
+
+# kubectl apply -f kafka-client.yml
